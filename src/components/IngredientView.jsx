@@ -13,7 +13,7 @@ const IngredientView = () => {
     return (
         <>
         <div className="flex flex-row items-center shadow-2xl mb-5 p-4">
-            <Link to ="/category">
+            <Link to ="/">
             <img src ="https://res.cloudinary.com/dti41e3cu/image/upload/v1757822466/Group_852_n1dwbn.png" alt="leftarrow" className="h-4 w-4" />
             </Link>
         <h1 className="font-bold text-2xl ml-4">Ingrdient list</h1>

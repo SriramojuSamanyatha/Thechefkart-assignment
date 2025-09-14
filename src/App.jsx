@@ -9,8 +9,8 @@ const App = () =>{
   return (
     <BrowserRouter>
     <Routes>
-      <Route exact path="/category" element={<DishList dishDetails={Details} />} />
-      <Route exact path="/category/:dishId" element={<IngredientView />} /> 
+      <Route path="/" element={<DishList dishDetails={Details} />} />
+      <Route path="/category/:dishId" element={<IngredientView />} /> 
     </Routes>
  
     </BrowserRouter>
